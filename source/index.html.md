@@ -13,6 +13,7 @@ toc_footers:
 
 includes:
   - overview
+  - administration
   - sample
 
 search: true

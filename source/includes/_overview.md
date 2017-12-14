@@ -19,7 +19,7 @@ Lintol has a series of components that have been created using various technolog
 * Capstone - Coordinator API - PHP, Laravel
 
 ### Components Diagram
-<aside class="notice"> Component diagram needed here </aside>
+![alt text](dd.png)
 
 ## Infrastructure
 The infrastructure for Lintol also has a number of different components. Each of these components are hosted within a linux server environment.
