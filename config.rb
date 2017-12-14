@@ -1,5 +1,8 @@
 # Unique header generation
 require './lib/unique_head.rb'
+require './makepdf'
+
+activate :pdfmaker
 
 # Markdown
 set :markdown_engine, :redcarpet

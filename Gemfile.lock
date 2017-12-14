@@ -90,6 +90,7 @@ GEM
     padrino-support (0.13.3.3)
       activesupport (>= 3.1)
     parallel (1.10.0)
+    pdfkit (0.8.2)
     public_suffix (2.0.5)
     rack (2.0.1)
     rb-fsevent (0.9.8)
@@ -109,6 +110,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.4)
       execjs (>= 0.3.0, < 3)
+    wkhtmltopdf-binary (0.12.3.1)
 
 PLATFORMS
   ruby
@@ -119,11 +121,13 @@ DEPENDENCIES
   middleman-sprockets (~> 4.1.0)
   middleman-syntax (~> 3.0.0)
   nokogiri (~> 1.6.8)
+  pdfkit
   redcarpet (~> 3.4.0)
   rouge (~> 2.0.5)
+  wkhtmltopdf-binary
 
 RUBY VERSION
    ruby 2.3.3p222
 
 BUNDLED WITH
-   1.14.5
+   1.16.0

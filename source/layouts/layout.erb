@@ -29,7 +29,11 @@ under the License.
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title><%= current_page.data.title || "API Documentation" %></title>
+    <meta name="pdfkit-footer_right" content="Page [page] of [topage]">
+    <meta name="pdfkit-footer_left" content="[title] | <%= Time.new.strftime("%Y-%m-%d") %>">
+    <meta name="pdfkit-footer_line" content="">
+    <meta name="pdfkit-footer_font_size" content="8">
+    <title>Lintol Documentation</title>
 
     <style>
       <%= Rouge::Themes::MonokaiSublime.render(:scope => '.highlight') %>
@@ -98,8 +102,8 @@ under the License.
       <div class="content">
         <%= page_content %>
       </div>
-      <div class="dark-box">
-        <% if language_tabs.any? %>
+      <% if language_tabs.any? %>
+        <div class="dark-box">
           <div class="lang-selector">
             <% language_tabs.each do |lang| %>
               <% if lang.is_a? Hash %>
@@ -109,8 +113,8 @@ under the License.
               <% end %>
             <% end %>
           </div>
-        <% end %>
-      </div>
+        </div>
+      <% end %>
     </div>
   </body>
 </html>
