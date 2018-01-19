@@ -13,7 +13,16 @@ toc_footers:
 
 includes:
   - overview
+  - login
   - administration
+  - profiles
+  - processors
+  - reports
+  - users
+  - settings
+  - ckan_setup
+  - extensions
+  - contribution
   - sample
 
 search: true

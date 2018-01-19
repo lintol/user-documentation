@@ -21,8 +21,28 @@ Lintol has a series of components that have been created using various technolog
 ### Components Diagram
 ![alt text](dd.png)
 
-## Infrastructure
-The infrastructure for Lintol also has a number of different components. Each of these components are hosted within a linux server environment.
+# Infrastructure
+
+## Components
+The infrastructure for Lintol has a number of different components. Each of these components are hosted within a linux server environment. There are a numerous ways of hosting the linux environments required for Lintol. This documentation records and explains the infrastructure used by the Lintol development team.
+
+* AWS EC2 - compute resources
+* AWS Route 53 - DNS management
+* AWS S3 - data storage
+* Kubernetes - container cluster
+* Traefik - routing and load balancing
+
+## Deployment
+
+### Tools
+Deploying the Lintol infrastructure on the components referenced in the Components section requires a number of deployment and configuration tools.
+
+* AWS CLI
+* KubeCtl
+* Kops
+* Helm - prerequisites [Composer, Docker]
+
+####
 
 ### Infrastructure Diagram
 <aside class="notice"> Infrastructure diagram needed here </aside>

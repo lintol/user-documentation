@@ -1,7 +1,20 @@
 # Configuration and Administration
 
-manage.lintol.io
-manage.lintol.io provides an interface to create and manage data validation profiles used by the CKAN extension. It is accessed via a web browser by entering the following url - http://manage.lintol.io.
+## Licensing Lintol
+Once a user account has been created, the user will need to create a license to use Lintol.
 
-app.lintol.io
-app.lintol.io provides an interface to extend the functionality of validation reporting in CKAN. It is accessed via a web browser by entering the following url - http://app.lintol.io.
+- An account is used by multiple people within Organisation
+  - Activate Licence based on domain
+    - Pay for Lintol Licence → Generate is Key
+
+
+**Logged In - No Domain (UI)**
+
+- Button appears at the top of header to tell them to add domain to activate
+- Still have ability to browse “Data Profiles, Processors, Create”
+- Once a domain is added any  Processosors/Data Profiles will be connected to the domain
+
+**Logged In - Domain Added**
+
+- Still have ability to browse “Data Profiles, Processors, Create”
+- Once a domain is added any  Processosors/Data Profiles will be connected to the domain
