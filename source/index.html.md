@@ -17,9 +17,9 @@ includes:
   - administration
   - profiles
   - processors
-  - reports
-  - users
-  - settings
+  #- reports
+  #- users
+  #- settings
   - ckan_setup
   - extensions
   - contribution
