@@ -1,11 +1,3 @@
-# Introduction
-
-Welcome to the Lintol Documentation! You can use our documentation to reference the functionality that Lintol provides.
-
-Lintol is a collection of components that work together to provide data validation and analytics services for open data. It was designed to work in conjunction with the CKAN platform.
-
-Datasets that are uploaded to a CKAN instance can use the Lintol plugin to automatically run various validation processes on the data. This will improve the quality, speed and cost-effectiveness of data publishing. Lintol components are web-based and are configured and managed through websites within the Lintol framework.
-
 # Overview
 
 ## Components
@@ -19,7 +11,7 @@ Lintol has a series of components that have been created using various technolog
 * Capstone - Coordinator API - PHP, Laravel
 
 ### Components Diagram
-![alt text](dd.png)
+![alt text](dd.png "Data Diagram")
 
 # Infrastructure
 

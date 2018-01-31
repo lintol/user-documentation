@@ -154,6 +154,15 @@ html, body {
     transition-duration: 200ms;
   }
 
+  .toc-section{
+    border-bottom: solid 1px white;
+  }
+
+  .toc-section h1{
+    color: #fff;
+    font-size:1.4em;
+  }
+
   // This is the currently selected ToC entry
   .toc-link.active {
     background-color: $nav-active-bg;
