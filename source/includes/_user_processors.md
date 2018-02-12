@@ -12,8 +12,8 @@ A list of data processors can be accessed by clicking on the 'Data Processors' l
 - Unique reference
 - Implentations - number of times the processor has been added to a data profile
 
-More details about an individual data processor can be viewed by clicking on [the data processor in the list].
+More details about an individual data processor can be viewed by clicking on the data processor entry in the list.
 
 ### Add a Data Processor
 
-Adding a data processor can be started by clicking on the "Add a Data Processor" button on the top right off the data processors page.
+Clicking on the "Add a Data Processor" button on the top right of the data processors page will display the new data processor page.

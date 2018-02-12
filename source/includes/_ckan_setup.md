@@ -1,3 +1,5 @@
+# CKAN Setup
+
 - Sign Up to CKAN instance
 - Add a Data Set
   - Choose the Data Profile (Limited to One)
