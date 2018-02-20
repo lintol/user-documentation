@@ -72,7 +72,7 @@ npm test
 
 Doorstep is a CLI component of Lintol that runs the validation processors against the data provided. It can be operated via the command line as a standalone process or be integrated with the Lintol UI and Capstone components to provide a fully featured web application.
 
-Doorstep creates data validation jobs by combining a data source with a validation script in a virtual environment that can be run in a single or multi threaded process. Standalone Doorstep will receive paramters for the script and data source and run a job in single threaded process.
+Doorstep creates data validation jobs by combining a data source with a validation script in a virtual environment that can be run in a single or multi threaded process. Standalone Doorstep will receive parameters for the script and data source and run a job in single threaded process.
 
 Doorstep requires Python 3.4 or higher, geos package and virtualenv which can be installed using pip3. Here are the steps to run Doorstep as a standalone process from the command line.
 
