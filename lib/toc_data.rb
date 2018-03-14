@@ -1,6 +1,6 @@
 require 'nokogiri'
 
-def toc_data_technical(page_content)
+def toc_data(page_content)
   html_doc = Nokogiri::HTML::DocumentFragment.parse(page_content)
 
   # get a flat list of headers
